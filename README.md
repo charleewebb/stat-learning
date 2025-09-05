@@ -1,0 +1,7 @@
+I recently completed a deep learning project developing a Convolutional Neural Network (CNN) for classifying dermoscopic images of skin lesions into benign or malignant. Using the ISIC Archive dataset (≈7,800 images with histopathology confirmation and patient metadata), I engineered multiple CNN architectures and benchmarked them against external case studies to optimise detection performance.
+
+The final model achieved 98% recall, ensuring nearly all malignant cases were correctly flagged, with a ROC AUC of 0.92, significantly outperforming baseline models. While overall accuracy was moderate (~62%) due to the model’s conservative bias (classifying many benign lesions as malignant), this trade-off was intentional to maximise patient safety, prioritising sensitivity over specificity.
+
+I also integrated explainability and clinical workflow considerations, demonstrating how the tool supports dermatologists in early triage, theatre scheduling, and productivity gains. Case studies highlighted both successful early cancer escalations and low-risk “false alarms,” underscoring its real-world robustness. Financial modelling showed potential savings of over A$100k annually through earlier detection, theatre optimisation, and improved referral growth.
+
+This project combined computer vision, medical AI, and health economics, illustrating how advanced CNNs can deliver both clinical impact and business value when carefully validated and deployed as decision support tools.
